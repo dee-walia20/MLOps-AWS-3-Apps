@@ -1,4 +1,4 @@
-# MLOps-AWS-3-Apps
+# MLOps-AWS-Deploy-3-Apps
 ### Step-1 Create AWS VM Instance
 ![AWS VM Instance](https://github.com/dee-walia20/MLOps-AWS-3-Apps/blob/master/images/1.png) 
 ### Step-2 Open MobaXterm and connect to AWS Instance via SSH
