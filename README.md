@@ -1,6 +1,6 @@
 # MLOps-AWS-3-Apps
 ### Step-1 Create AWS VM Instance
-![AWS VM Instance](https://github.com/dee-walia20/MLOps-AWS-3-Apps/blob/master/images/1.jpg) 
+![AWS VM Instance](https://github.com/dee-walia20/MLOps-AWS-3-Apps/blob/master/images/1.png) 
 ### Step-2 Open MobaXterm and connect to AWS Instance via SSH
 ![SSH connect](https://github.com/dee-walia20/MLOps-AWS-3-Apps/blob/master/images/2.jpg)
 ![MobaXterm](https://github.com/dee-walia20/MLOps-AWS-3-Apps/blob/master/images/4.jpg)
@@ -133,9 +133,9 @@ By Default port 80 is launched when launching via IP Address.
 **Port-8080** DL App
 **Port-8050** Python App
 **Port-8051** Nginx default message
-![ML App](https://github.com/dee-walia20/MLOps-AWS-3-Apps/blob/master/images/5.jpg)
-![DL App](https://github.com/dee-walia20/MLOps-AWS-3-Apps/blob/master/images/6.jpg)
-![Python App](https://github.com/dee-walia20/MLOps-AWS-3-Apps/blob/master/images/7.jpg)
-![Nginx default message](https://github.com/dee-walia20/MLOps-AWS-3-Apps/blob/master/images/8.jpg)
+![ML App](https://github.com/dee-walia20/MLOps-AWS-3-Apps/blob/master/images/5.png)
+![DL App](https://github.com/dee-walia20/MLOps-AWS-3-Apps/blob/master/images/6.png)
+![Python App](https://github.com/dee-walia20/MLOps-AWS-3-Apps/blob/master/images/7.png)
+![Nginx default message](https://github.com/dee-walia20/MLOps-AWS-3-Apps/blob/master/images/8.png)
 
 #### Note- Run main.py inside Image_Classification directory to save the Tensorflow DL model in .h5 format
