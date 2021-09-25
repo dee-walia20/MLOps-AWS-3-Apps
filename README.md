@@ -3,7 +3,7 @@
 ![AWS VM Instance](https://github.com/dee-walia20/MLOps-AWS-3-Apps/blob/master/images/1.png) 
 ### Step-2 Open MobaXterm and connect to AWS Instance via SSH
 ![SSH connect](https://github.com/dee-walia20/MLOps-AWS-3-Apps/blob/master/images/2.jpg)
-![MobaXterm](https://github.com/dee-walia20/MLOps-AWS-3-Apps/blob/master/images/4.jpg)
+![MobaXterm](https://github.com/dee-walia20/MLOps-AWS-3-Apps/blob/master/images/4.png)
 ### Step-3 Add the Security groups Inbound rules (port 80, 8000 etc)
 ![Inbound Rules](https://github.com/dee-walia20/MLOps-AWS-3-Apps/blob/master/images/3.jpg)
 ### Step-4 Install the necessary python libraries and package managers
@@ -20,6 +20,8 @@ sudo apt-get install gunicorn3
 sudo apt-get install nginx
 pip3 install tensorflow==2.0.0
 ```
+#### Note- Run main.py inside Image_Classification directory to save the Tensorflow DL model in .h5 format
+
 ### Step-5 Create Gunicorn Socket file for each Web appication
 Create the following three Service files inside **cd /etc/systemd/system/** directory with .service extension
 ``` bash
@@ -129,13 +131,12 @@ sudo service nginx restart
 ```
 ### Step-8 Launch your Web browser and got to the Public IP provided by AWS Instance
 By Default port 80 is launched when launching via IP Address.
-**Port-80** ML App
-**Port-8080** DL App
-**Port-8050** Python App
-**Port-8051** Nginx default message
+* **Port-80** ML App
+* **Port-8080** DL App
+* **Port-8050** Python App
+* **Port-8051** Nginx default message
 ![ML App](https://github.com/dee-walia20/MLOps-AWS-3-Apps/blob/master/images/5.png)
 ![DL App](https://github.com/dee-walia20/MLOps-AWS-3-Apps/blob/master/images/6.png)
 ![Python App](https://github.com/dee-walia20/MLOps-AWS-3-Apps/blob/master/images/7.png)
 ![Nginx default message](https://github.com/dee-walia20/MLOps-AWS-3-Apps/blob/master/images/8.png)
 
-#### Note- Run main.py inside Image_Classification directory to save the Tensorflow DL model in .h5 format
